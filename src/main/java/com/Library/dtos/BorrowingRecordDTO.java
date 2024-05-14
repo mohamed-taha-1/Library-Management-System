@@ -1,0 +1,1 @@
+package com.Library.dtos;import com.Library.models.Book;import com.Library.models.Patron;import lombok.*;import java.util.Date;@NoArgsConstructor@AllArgsConstructor@Getter@Setterpublic class BorrowingRecordDTO {  private Long id;  private Date returnDate;  private Date borrowingDate;}

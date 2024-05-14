@@ -1,0 +1,1 @@
+package com.Library.dtos;import lombok.*;@NoArgsConstructor@AllArgsConstructor@Getter@Setter@ToStringpublic class BookDTO {  private Long id;  private String title;  private String author;  private int publicationYear;  private String isbn;}

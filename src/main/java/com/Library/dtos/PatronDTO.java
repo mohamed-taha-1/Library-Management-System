@@ -1,0 +1,1 @@
+package com.Library.dtos;import lombok.*;@NoArgsConstructor@AllArgsConstructor@Getter@Setter@ToStringpublic class PatronDTO {  private Long id;  private String name;  private String contactInformation;}

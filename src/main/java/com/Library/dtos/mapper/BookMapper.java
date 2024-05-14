@@ -1,0 +1,1 @@
+package com.Library.dtos.mapper;import com.Library.dtos.BookDTO;import com.Library.models.Book;import org.mapstruct.Mapper;import org.mapstruct.factory.Mappers;@Mapper(componentModel = "spring")public interface  BookMapper {  BookMapper INSTANCE = Mappers.getMapper(BookMapper.class);  BookDTO entitiy_TO_DTO(Book book);  Book DTO_TO_Entity(BookDTO bookDTO);}
