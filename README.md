@@ -26,7 +26,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository
 2. mvn clean install
-3. mvn spring-boot:run
+3. mvn spring-boot:run -Dspring.profiles.active=dev
 
 ## How to login [ Basic Auth ]
 1 username: root
